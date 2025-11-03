@@ -11,14 +11,21 @@
     <div class="container">
       <h1 class="site-title">Yuxin Dong <span class="chinese">| 董雨欣</span></h1>
       <nav class="site-nav">
+<<<<<<< HEAD
         <a href="/index.html" class="active">Home</a>
         <a href="/research.html">Research</a>
         <a href="/publications.html">Publications</a>
+=======
+        <a href="#home" class="active">Home</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+>>>>>>> b715f15 (Enable in-page vertical scrolling: convert nav to anchors and add sections)
       </nav>
     </div>
   </header>
 
-  <main class="container">
+  <main class="container" id="home">
     <section class="hero">
             <div class="hero-left">
         <img src="/assets/images/headshot_23_alt.JPG" alt="Profile photo" class="profile">
@@ -36,7 +43,32 @@
           observations of their local and global environments. 
           I am also an active member of scientific collaborations including the Fast and Fortunate for FRB Follow-up (F4) collaboration and CHIME/FRB.
           When I’m not in the office, I enjoy running, hiking, visiting national parks, and reading :)</p>
-        <p class="cta"><a class="btn" href="/contact.html">Get in touch</a></p>
+          <p class="cta"><a class="btn" href="#contact">Get in touch</a></p>
+      </div>
+    </section>
+
+    <!-- In-page sections for vertical scrolling -->
+    <section id="research">
+      <h2>Research</h2>
+      <p class="loading">This section will contain your research interests and projects. You can keep the separate <code>research.html</code> page or consolidate content here for single-page navigation.</p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="loading">Your publication list will appear here. Optionally, we can pull a formatted list or keep the dedicated <code>publications.html</code> page linked as well.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Get in touch</h3>
+          <div class="contact-info">
+            <p>Email: <a href="mailto:your.email@northwestern.edu">your.email@northwestern.edu</a></p>
+            <p>Institution: CIERA / Northwestern University</p>
+            <p>GitHub: <a href="https://github.com/astro-vic" target="_blank">astro-vic</a></p>
+          </div>
+        </div>
       </div>
     </section>
 
