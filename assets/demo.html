@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Your Name</h1>
+            <nav class="site-nav">
+                <a href="#about" class="active">About</a>
+                <a href="#research">Research</a>
+                <a href="#publications">Publications</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="container">
+            <div class="hero">
+                <div class="hero-left">
+                    <img src="/assets/images/profile-placeholder.svg" alt="Your Name" class="profile">
+                    <div class="contact">
+                        <div class="email">Email: <a href="mailto:you@institution.edu">you@institution.edu</a></div>
+                        <div class="institution">Your Institution</div>
+                        <div class="department">Department Name</div>
+                        <div class="socials">
+                            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <h2>About Me</h2>
+                    <p>I am a [position] at [institution], focusing on [research areas]. My research interests include [topic 1], [topic 2], and [topic 3].</p>
+                    <p>Currently, I am working on [current project or research focus]. My work aims to [research goal or impact].</p>
+                    <div class="research-interests">
+                        <h3>Research Interests</h3>
+                        <ul class="interests-list">
+                            <li>Research Area 1</li>
+                            <li>Research Area 2</li>
+                            <li>Research Area 3</li>
+                            <li>Research Area 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="container">
+            <h2>Research</h2>
+            <div class="research-timeline">
+                <div class="research-item">
+                    <div class="period">2024 - Present</div>
+                    <div class="research-content">
+                        <h3>Current Research Project</h3>
+                        <p>Brief description of your current research project, its goals, and potential impact.</p>
+                    </div>
+                </div>
+                <div class="research-item">
+                    <div class="period">2022 - 2024</div>
+                    <div class="research-content">
+                        <h3>Previous Research</h3>
+                        <p>Description of past research work, key findings, and outcomes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="container">
+            <div class="publications-header">
+                <h2>Publications</h2>
+                <div class="format-controls">
+                    <button class="btn ghost">APA</button>
+                    <button class="btn ghost">BibTeX</button>
+                </div>
+            </div>
+            <div class="publication-list">
+                <article class="publication-item">
+                    <h3>Your Publication Title Here</h3>
+                    <p class="authors">Author 1, Author 2, Author 3</p>
+                    <p class="venue">Journal Name (Year)</p>
+                    <div class="publication-links">
+                        <a href="#" class="btn ghost">PDF</a>
+                        <a href="#" class="btn ghost">Code</a>
+                        <a href="#" class="btn ghost">Cite</a>
+                    </div>
+                    <div class="citation-box">
+                        @article{key2025,
+                            title={Your Publication Title},
+                            author={Author1 and Author2 and Author3},
+                            journal={Journal Name},
+                            year={2025}
+                        }
+                    </div>
+                </article>
+                <!-- Add more publications following the same structure -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Project Name</h3>
+                    <div class="project-meta">
+                        Role: Lead Researcher<br>
+                        Timeline: 2024 - Present
+                    </div>
+                    <p>Description of the project, its goals, and your contributions.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Tag 1</span>
+                        <span class="project-tag">Tag 2</span>
+                    </div>
+                </article>
+                <!-- Add more project cards -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <div class="contact-info">
+                        <a href="mailto:you@institution.edu">you@institution.edu</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <h3>Office</h3>
+                    <div class="contact-info">
+                        Room XXX<br>
+                        Building Name<br>
+                        Institution Name
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <h3>Social & Academic</h3>
+                    <div class="contact-info">
+                        <a href="#" target="_blank">Google Scholar</a><br>
+                        <a href="#" target="_blank">GitHub</a><br>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script to handle citation display
+        document.querySelectorAll('.btn').forEach(button => {
+            if (button.textContent === 'Cite') {
+                button.addEventListener('click', (e) => {
+                    const citation = e.target.closest('.publication-item').querySelector('.citation-box');
+                    citation.style.display = citation.style.display === 'none' ? 'block' : 'none';
+                });
+            }
+        });
+    </script>
+</body>
+</html>
