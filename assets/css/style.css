@@ -818,6 +818,17 @@ body {
   margin: 2rem 0;
 }
 
+/* Smaller research blocks for non-FRB projects */
+.project-card:not(.frb-expanded) {
+  padding: 1.5rem;
+  min-height: auto;
+}
+
+.project-card:not(.frb-expanded) .figures-gallery {
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
 .project-card {
   background: var(--glass-bg);
   backdrop-filter: blur(16px);
