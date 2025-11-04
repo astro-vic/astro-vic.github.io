@@ -150,12 +150,15 @@ body {
 .hero {
   padding: 4rem 0 3rem;
   border-bottom: 1px solid #e2e8f0;
+  position: relative;
 }
 
 .hero-content {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .profile-section {
@@ -171,7 +174,7 @@ body {
 .profile-info h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #1a202c;
+  color: #ffffff;
   margin: 0 0 0.5rem;
   line-height: 1.2;
 }
@@ -186,7 +189,7 @@ body {
 .profile-info h3 {
   font-size: 1.125rem;
   font-weight: 500;
-  color: #4a5568;
+  color: #ffffff;
   margin: 0 0 1.5rem;
 }
 
