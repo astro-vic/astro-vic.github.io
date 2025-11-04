@@ -1653,6 +1653,14 @@ section h2::after {
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  .main-container {
+    padding: 0 1rem;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+  
   .slide-layout {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -1678,7 +1686,7 @@ section h2::after {
   }
   
   .presentation-header {
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
   }
   
   .presentation-icon {
@@ -1691,6 +1699,88 @@ section h2::after {
   }
   
   .outreach-slide {
+    padding: 1rem;
+  }
+  
+  .slide-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .outreach-contact {
     padding: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .outreach-contact h3 {
+    font-size: 1.4rem;
+  }
+  
+  .research-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .research-item {
+    padding: 1.5rem;
+  }
+  
+  .research-item h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    padding: 0 0.75rem;
+  }
+  
+  .presentation-header {
+    padding: 1rem;
+  }
+  
+  .presentation-header h3 {
+    font-size: 1.3rem;
+  }
+  
+  .presentation-tagline {
+    font-size: 0.9rem;
+  }
+  
+  .outreach-slide {
+    padding: 0.75rem;
+  }
+  
+  .slide-text {
+    font-size: 0.9rem;
+  }
+  
+  .slide-text p {
+    margin-bottom: 1rem;
+  }
+  
+  .presentation-photo {
+    height: 180px;
+  }
+  
+  .photo-caption {
+    font-size: 0.8rem;
+  }
+  
+  .outreach-contact {
+    padding: 1rem;
+  }
+  
+  .outreach-contact h3 {
+    font-size: 1.2rem;
+  }
+  
+  .outreach-contact p {
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
   }
 }
