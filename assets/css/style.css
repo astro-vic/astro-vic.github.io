@@ -162,6 +162,13 @@ body {
   min-height: calc(100vh - 96px);
 }
 
+@media (max-width: 768px) and (min-width: 481px) {
+  .hero {
+    grid-template-columns: 160px 1fr;
+    gap: 1.5rem;
+  }
+}
+
 .hero-left {
   grid-area: left;
   position: relative;
@@ -586,7 +593,7 @@ body {
   border-color: transparent;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .hero {
     grid-template-columns: 1fr;
     gap: 1.5rem;
